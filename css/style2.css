@@ -85,3 +85,17 @@
     margin: 0;
     display: inline-block; /* Or display: block; */
 }
+body { font-family: Arial, sans-serif; }
+.search-container { margin-bottom: 10px; }
+.search-input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.course-list { list-style: none; padding: 0; }
+.course-item {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
